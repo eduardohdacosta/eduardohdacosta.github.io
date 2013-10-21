@@ -1,4 +1,4 @@
-/*--------------------------------------------------------- CSS for Index, Resume, Connect */
+/*--------------------------------------------------------- CSS for Portfolio */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -83,9 +83,8 @@ article ul { /*Allows me to indent the entire list*/
     margin-bottom: 16px;
 }
 
-.media { /*Allows me to place image left*/
-    float:right;
-    margin: 0 0 0 12px;
+.media { /*Allows me to give margins to the images*/
+    margin: 12px;
 }
 
 #wrapper {
