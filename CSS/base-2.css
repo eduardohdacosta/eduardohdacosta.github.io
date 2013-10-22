@@ -29,7 +29,7 @@ header {
 header nav {
     float: left;
     margin-top: 12px;
-    width: 960px;
+    width: 100%;
     font-size: 20px;
 }
 
@@ -88,7 +88,7 @@ article ul { /*Allows me to indent the entire list*/
 }
 
 #wrapper {
-	width: 960px;
+	width: 70%;
 	background: #ffffff;
 	margin: 0 auto 0 auto;
 }
