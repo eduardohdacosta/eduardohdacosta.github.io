@@ -119,3 +119,50 @@ footer a:active {
 }
 
 /*--------------------------------------------------------- Device Specific Override */
+
+@media screen and (max-width: 600px) {
+
+    header {
+		height: 50px;
+        
+	}
+    header nav {
+        width: 80%;
+		display: inline;
+		float: none;
+	}
+	
+	header a {
+		margin-right: 3px;   
+    }
+	
+	article {
+		margin-left: 2%;
+		margin-right: 2%;
+		padding: 2%;
+	}
+    
+    .media {
+        float: none;
+    }
+	
+	h1, h2 {
+		text-align: center;
+	}
+    
+	p {
+		margin-bottom: 6px;
+	}
+    
+     #wrapper {
+		width: 90%;
+	}
+	
+	footer {
+		height: 135px;
+	}
+	
+	footer a {
+		margin-right: 3px;
+	}
+}
